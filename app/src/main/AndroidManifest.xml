@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="snikolas.hortikulturnimonitor">
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/rounded_corners"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+       <!-- android:theme="@style/AppTheme" -->
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".NewPlant"></activity>
+        <activity android:name=".PLantDB"></activity>
+        <activity android:name=".About"></activity>
+        <activity android:name=".MyGarden"></activity>
+        <activity android:name=".MyPlantLive"></activity>
+        <activity android:name=".History"></activity>
+        <activity android:name=".PlantDetails"></activity>
+        <activity android:name=".PlantCare"></activity>
+        <service
+            android:name=".service.FlowerPowerService"
+            android:enabled="true" />
+
+
+    </application>
+
+</manifest>

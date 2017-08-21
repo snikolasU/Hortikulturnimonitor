@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/plant_row_list"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/transparent_background"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/plant_img"
+            android:layout_width="150dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/plant_name"
+            android:text="Naziv biljke"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+</LinearLayout>

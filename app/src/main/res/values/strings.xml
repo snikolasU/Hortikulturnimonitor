@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hortikulturni monitor</string>
+
+    <string name="goto_plant_db">Pogledaj bazu biljaka</string>
+    <string name="start_your_garden">Stvori svoj vrt</string>
+    <string name="about">O aplikaciji</string>
+    <string name="plant_db">Baza biljaka</string>
+
+    <string name="new_plant">Nova biljka</string>
+    <string name="cancel">Cancel</string>
+    <string name="acces_plant_db">Pristupi bazi biljaka</string>
+    <string name="indoor">Unutra</string>
+    <string name="outdoor">Vani</string>
+    <string name="ble_not_supported">Bluetooth low energy nije podržan na ovom uređaju</string>
+    <string name="error_bluetooth_not_supported">Bluetooth nije podržan</string>
+    <string name="temp_gauge">Temperatura (°C)</string>
+    <string name="soil_gauge">Vlažnost tla (%)</string>
+    <string name="sun_gauge">Količina svjetlosti (%)</string>
+    <string name="battery_gauge">Razina baterije (%)</string>
+    <string name="nema_detalja">Nema spremljenih detalja o napredku</string>
+    <string name="BLE_exception">Sensor nije pronađen</string>
+    <string name="history">Povijest sadnje</string>
+
+    <string name="moj_vrt">Moj vrt</string>
+
+    <string name="odaberi_biljku">1. Odaberi svoju biljku</string>
+    <string name="nazovi_biljku">2. Nazovi svoju biljku</string>
+    <string name="odaberi_okolinu">3. Odaberi okolinu</string>
+
+</resources>

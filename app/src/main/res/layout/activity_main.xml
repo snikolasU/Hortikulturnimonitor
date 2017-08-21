@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="snikolas.hortikulturnimonitor.MainActivity"
+    android:background="@drawable/background_color_two">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/main_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/splash_one">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start_garden_btn"
+        android:background="@drawable/transparent_background"
+        android:layout_below="@+id/main_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Napravi svoj vrt"/>
+    <Button
+        android:id="@+id/goto_plantDB_btn"
+        android:background="@drawable/transparent_background"
+        android:layout_below="@+id/start_garden_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/goto_plant_db"/>
+    <Button
+        android:id="@+id/goto_povijest_btn"
+        android:background="@drawable/transparent_background"
+        android:layout_below="@+id/goto_plantDB_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Povijest"/>
+    <Button
+        android:id="@+id/about_btn"
+        android:background="@drawable/transparent_background"
+        android:layout_below="@+id/goto_povijest_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/about"/>
+</RelativeLayout>
